@@ -25,15 +25,13 @@ The system is organized into five functional blocks:
 ## 🖥 Simulation & Design
 The circuit logic was fully validated using Proteus software before hardware implementation.
 
-![Circuit Simulation Scan](<img width="624" height="404" alt="Picture1" src="https://github.com/user-attachments/assets/9b2c2805-db38-41c4-8318-747dcd99ae38" />
-)
+<img width="624" height="404" alt="Picture1" src="https://github.com/user-attachments/assets/9b2c2805-db38-41c4-8318-747dcd99ae38" />
 *Figure 1: Proteus Schematic Diagram*
 
 ## 🔌 Hardware Implementation
 The physical prototype was assembled on breadboards. The wiring ensures stable signal transmission between the counter stages and the display decoders.
 
-![Physical Prototype Scan](<img width="562" height="749" alt="Picture2" src="https://github.com/user-attachments/assets/233c09b8-84a1-460d-8079-94458b419a78" />
-)
+<img width="562" height="749" alt="Picture2" src="https://github.com/user-attachments/assets/233c09b8-84a1-460d-8079-94458b419a78" />
 *Figure 2: Final Hardware Prototype*
 
 ## 🚀 Key Learning Outcomes
