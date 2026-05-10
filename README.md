@@ -16,27 +16,30 @@ The objective of this project is to design and build a digital clock that displa
 
 The system is organized into five functional blocks:
 
-### 1. Clock Generation Block
-Generates a precise 1Hz square wave (1 pulse per second). This serves as the master clock for the entire system to ensure accurate timekeeping.
+1. **Clock Generation Block**: Generates a precise 1Hz square wave (1 pulse per second).
+2. **Counter Block**: Utilizes **74LS90** ICs to count Seconds (00-59), Minutes (00-59), and Hours (00-23).
+3. **Decoder Block**: Uses **74LS47** ICs to convert BCD signals for 7-segment displays.
+4. **Display Block**: Consists of six Common Anode 7-segment LEDs with current-limiting resistors.
+5. **Power Block**: Stable 5VDC supply.
 
-### 2. Counter Block
-Utilizes **74LS90** ICs to perform frequency division and counting:
-* **Seconds/Minutes**: Counts from 00 to 59, resetting at the 60th pulse to carry over to the next unit.
-* **Hours**: Counts from 00 to 23, with a logic reset at "24" to return to 00.
+## 🖥 Simulation & Design
+The circuit logic was fully validated using Proteus software before hardware implementation.
 
-### 3. Decoder Block
-Uses **74LS47** ICs to convert the 4-bit BCD output from the counters into signals compatible with 7-segment displays.
+![Circuit Simulation Scan](<img width="624" height="404" alt="Picture1" src="https://github.com/user-attachments/assets/c3ac8d97-f854-438b-a9ba-61eacfd73bb8" />
+)
+*Figure 1: Proteus Schematic Diagram*
 
-### 4. Display Block
-Consists of six 7-segment LEDs (Common Anode). Current-limiting resistors (220Ω) are placed between the decoder and each LED segment for protection.
+## 🔌 Hardware Implementation
+The physical prototype was assembled on breadboards. The wiring ensures stable signal transmission between the counter stages and the display decoders.
 
-### 5. Power Block
-A 5V-2A Adapter converts 220VAC power into a stable 5VDC supply for the TTL logic components.
+![Physical Prototype Scan](<img width="562" height="749" alt="Picture2" src="https://github.com/user-attachments/assets/44fb01ff-ee89-4d62-9562-5f1dc3a83e8e" />
+)
+*Figure 2: Final Hardware Prototype*
 
-## 🚀 Implementation
-The project followed a two-stage development process:
-1.  **Simulation**: Validated the schematic logic using **Proteus** software.
-2.  **Hardware Assembly**: Constructed the physical circuit on breadboards for final testing.
+## 🚀 Key Learning Outcomes
+* Mastering the operation of 74LS90 counter and 74LS47 decoder.
+* Understanding logic reset conditions for Modulo-60 and Modulo-24 counters.
+* Practical skills in circuit troubleshooting and hardware debugging.
 
 ## 👥 Contributors
 * **Instructor**: PGS.TS Nguyễn Quốc Cường
