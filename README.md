@@ -40,9 +40,9 @@ The physical prototype was assembled on breadboards. The wiring ensures stable s
 * Practical skills in circuit troubleshooting and hardware debugging.
 
 ## 👥 Contributors
-* **Instructor**: PGS.TS Nguyễn Quốc Cường
+* **Instructor**: Associate Professor, PhD Cuong Quoc Nguyen
 * **Student Team**: 
-    * Nguyễn Mạnh Dũng (20232026)
-    * Nguyễn Minh Đức (20230005)
-* **Class**: CTTN – Control Engineering & Automation
+    * Nguyen Manh Dung
+    * Nguyen Minh Duc
+* **Class**: Control Engineering & Automation (Talent Program)
 * **Institution**: School of Electrical and Electronic Engineering (SEEE) - HUST
